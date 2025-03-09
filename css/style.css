@@ -1,0 +1,74 @@
+/* Start Global Rols */
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* Start Container */
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Small Screen */
+@media(min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+/* Medium Screen */
+@media(min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+/* Larg Screen */
+@media(min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/* End Container */
+/* End Global Rols */
+/* Start Header */
+.header{
+    padding: 20px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    width: 60px;
+}
+.header .links{
+    position: relative;
+}
+.header .links .icon{
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.header .container .icon span{
+    background-color: #333;
+    margin-bottom: 5px;
+    height: 3px;
+    border-radius: 5px;
+}
+.header .container .icon span:first-child{
+   width: 100%;
+}
+.header .container .icon span:nth-child(2){
+    width: 60%;
+}
+.header .container .icon span:last-child{
+    width: 100%;
+}
+/* End Header */
